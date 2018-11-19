@@ -9,15 +9,26 @@ import iMSNarrow from 'ui/media/ms01-narrow.png'
 // eslint-disable-next-line
 import { green, yellow, orange, red, purple } from 'logger'
 
+const Title = ({ children }) => {
+  return (<Typography variant='h4' align='center'>{children}</Typography>)
+}
 
 const Home = (props) => {
   const { classes } = props
   return (
     <div>
-      <LeftRightSection image={iTeaching} imageSide='left' title='Teaching' />
-      <LeftRightSection image={iTeaching} imageSide='right' title='Teaching' />
-      <LeftRightSection image={iMS} imageSide='left' title='MS Tall' />
-      <LeftRightSection image={iMSNarrow} imageSide='left' title='MS Narrow' />
+      <LeftRightSection image={iTeaching} imageSide='left'>
+        <Title>Teaching</Title>
+      </LeftRightSection>
+      <LeftRightSection image={iTeaching} imageSide='right'>
+      <Title>Teaching</Title>
+      </LeftRightSection>
+      <LeftRightSection image={iMS} imageSide='left'>
+        <Title>MS Tall</Title>
+      </LeftRightSection>
+      <LeftRightSection image={iMSNarrow} imageSide='right'>
+        <Title>MS Narrow</Title>
+      </LeftRightSection>
     </div>
   )
 }

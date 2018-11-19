@@ -9,7 +9,7 @@ import { green, yellow, orange, red, purple } from 'logger'
 
 
 const LeftRightSection = (props) => {
-  const { classes, image, imageSide='left', title } = props
+  const { children, classes, image, imageSide='left' } = props
 
 
   if (imageSide === 'left') {
@@ -19,9 +19,7 @@ const LeftRightSection = (props) => {
           <ResponsiveImage src={image} alt='carl teaching' />
         </div>
         <div className={classes.textSideStyle}>
-          <Typography variant='h4'>
-            {title}
-          </Typography>
+          {children}
         </div>
       </Paper>
     )
@@ -29,9 +27,7 @@ const LeftRightSection = (props) => {
   return (
     <Paper className={classes.wrapper}>
       <div className={classes.textSideStyle}>
-        <Typography variant='h4'>
-          {title}
-        </Typography>
+        {children}
       </div>
       <div className={classes.imageSideStyle}>
         <ResponsiveImage src={image} alt='carl teaching' />
@@ -57,6 +53,7 @@ const styles = {
   textSideStyle: {
     flexBasis: '66.666666%',
     backgroundColor: 'purple',
+    padding: '8px 16px',
   },
 
 }
