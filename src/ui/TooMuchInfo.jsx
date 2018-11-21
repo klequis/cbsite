@@ -37,7 +37,7 @@ const TooMuchInfo = (props) => {
           <Typography variant='h4'>
             Technologies
           </Typography>
-          <Typography variant='h5'>
+          <Typography variant='h1'>
             Currently Active
           </Typography>
           <AboutItem title='Crystal Reports' />

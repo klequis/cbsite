@@ -6,7 +6,6 @@ import {
 } from 'react-router-dom'
 import { compose } from 'recompose'
 import { withStyles } from '@material-ui/core/styles'
-import { Typography } from '@material-ui/core'
 
 // User
 import PrivateRoute from 'ui/auth/PrivateRoute'
@@ -18,12 +17,12 @@ import AppDrawer from 'ui/AppDrawer'
 import Footer from 'ui/Footer'
 import TooMuchInfo from 'ui/TooMuchInfo'
 import Home from 'ui/Home'
+import TypographyDemo from 'ui/TypographyDemo'
 // import Hero from 'ui/Hero'
 // Dev
 // eslint-disable-next-line
 import { green, yellow, orange, red, purple } from 'logger'
-// import Breakpoints from 'ui/elements/Breakpoints'
-import iMS from 'ui/media/ms01.png'
+import Breakpoints from 'ui/elements/Breakpoints'
 
 const App = (props) => {
   const { classes } = props
@@ -32,7 +31,7 @@ const App = (props) => {
 
   return (
     <div id='App-wrapper' className={classes.wrapper}>
-      {/* <Breakpoints /> */}
+      <Breakpoints />
       <div id='App-appbar' className={classes.appbar}>
         <AppBar />
 
@@ -45,6 +44,7 @@ const App = (props) => {
         <div id='App-content' className={classes.content}>
           <Switch>
             <Route path='/home' component={Home} />
+            <Route path='/typography' component={TypographyDemo} />
             <PrivateRoute exact path='/settings' component={SettingsForm} />
             <Route path='/too-much-info' component={TooMuchInfo} />
             <Route exact path='/login' component={LoginForm} />
