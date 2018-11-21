@@ -55,7 +55,8 @@ const styles = {
     backgroundColor: 'transparent',
   },
   imageSideStyle: {
-    flexBasis: '33.333333%',
+    // flexBasis: '33.333333%',
+    width: '35%',
     // backgroundColor: 'orange',
     paddingTop: 8,
     paddingBottom: 8,

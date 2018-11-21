@@ -7,7 +7,7 @@ const H1 = ({ children, classes }) => {
   return (
     <Typography
       variant='h1'
-      align='center'
+      align='left'
       className={classes.font}
     >
 

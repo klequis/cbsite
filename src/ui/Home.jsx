@@ -6,22 +6,15 @@ import iTeaching from 'ui/media/teaching.jpg'
 import iMS from 'ui/media/ms01.png'
 import iMSNarrow from 'ui/media/ms01-narrow.png'
 import iMeetup01 from 'ui/media/meetup01.jpg'
-import iTR from 'ui/media/tr-logo.png'
+import iTR from 'ui/media/tr.jpg'
 import iResponsive from 'ui/media/new/responsive.svg'
 import iRiding from 'ui/media/riding.jpg'
 import Skills from 'ui/Skills'
-import H1 from 'ui/H1'
 import H2 from 'ui/H2'
 import St2 from 'ui/St2'
 
 // eslint-disable-next-line
 import { green, yellow, orange, red, purple } from 'logger'
-
-
-
-// const Subtitle1 = ({ children, className }) => {
-//   return (<Typography variant='Subtitle11' align='center'>{children}</Typography>)
-// }
 
 const Body1 = ({ children }) => {
   return (<Typography variant='body1' align='left'>{children}</Typography>)
@@ -31,9 +24,6 @@ const Home = (props) => {
   const { classes } = props
   return (
     <div>
-      <H1>
-        Carl Becker
-      </H1>
       <Skills />
       <LeftRightSection image={iResponsive} imageSide='left' shadow>
         <H2>Responsive</H2>
@@ -51,7 +41,7 @@ const Home = (props) => {
       <Body1>At TriValley Coders I have been teaching people to code for the past two years. I also held a weekly coding and general tech class for middle school children from May 2016 to Feb 2017. In a form role ...</Body1>
       </LeftRightSection>
 
-      <LeftRightSection image={iMSNarrow} imageSide='right' shadow>
+      <LeftRightSection image={iMS} imageSide='right' shadow>
         <H2>Morgan Stanley</H2>
         <Body1>My first role at Morgan Stanley was creating automated spreadsheet models. I worked with a wide variety of financial data and developed a query and reporting engine that worked against Sybase databases. Over a period of 14 years I filled the roles of software developer, team lead, development manager, project manager and product manager.</Body1>
         <Body1>Applications I worked on concerned CRM, Knowledge Management, Document Management, Banker & Analyst Productivity, reducing imformation overload, Firmwide Branding and Pitchbook automation. I have often been called 'the grand-father of pitchbook autmation', altough dropping the 'grand' would be fine with me. </Body1>

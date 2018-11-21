@@ -2,11 +2,12 @@ import React from 'react'
 import { withStyles } from '@material-ui/core/styles'
 import { Paper } from '@material-ui/core'
 import ResponsiveImage from 'ui/elements/ResponsiveImage'
-import H2 from 'ui/H2'
 import iMongo from './media/new/mongodb.svg'
 import iExpress from './media/new/express.svg'
 import iReact from './media/new/react.svg'
 import iNode from './media/new/node.svg'
+import H1 from 'ui/H1'
+import H2 from 'ui/H2'
 // import iResponsive from './media/responsive-ui.svg'
 
 // eslint-disable-next-line
@@ -17,28 +18,54 @@ const shadowStyle = {
 }
 
 const Skills = (props) => {
-  const { children, classes } = props
+  const { classes, imageSide } = props
 
-  return (
-    <Paper id='Skills-wrapper' className={classes.wrapper} elevation={0}>
-      <H2>Mern Stack Developer</H2>
+
+  if (imageSide === 'left') {
+    return (
       <Paper
         className={classes.wrapper}
         elevation={0}
-      >
-        <div className={classes.logoRow}>
-          <ResponsiveImage src={iMongo} alt='mongo db logo' maxHeight={40} className={classes.img}/>
-          <ResponsiveImage src={iExpress} alt='express js logo' maxHeight={40} className={classes.img}/>
 
-        </div>
-        <div className={classes.logoRow}>
-          <ResponsiveImage src={iReact} alt='react js logo' maxHeight={32} className={classes.img}/>
-          <ResponsiveImage src={iNode} alt='node js logo' maxHeight={32} className={classes.img}/>
+      >
+        <div className={classes.imageSideStyle}>
+          <div className={classes.logoRow}>
+            <ResponsiveImage src={iMongo} alt='mongo db logo' maxHeight={40} className={classes.img}/>
+            <ResponsiveImage src={iExpress} alt='express js logo' maxHeight={40} className={classes.img}/>
+
+          </div>
+          <div className={classes.logoRow}>
+            <ResponsiveImage src={iReact} alt='react js logo' maxHeight={32} className={classes.img}/>
+            <ResponsiveImage src={iNode} alt='node js logo' maxHeight={32} className={classes.img}/>
+          </div>
         </div>
         <div className={classes.textSideStyle}>
-          {children}
+          <H1>Carl Becker</H1>
+          <H2>MERN Stack Developer</H2>
         </div>
       </Paper>
+    )
+  }
+  return (
+    <Paper
+      className={classes.wrapper}
+      elevation={0}
+    >
+      <div className={classes.textSideStyle}>
+        <H1>Carl Becker</H1>
+        <H2>MERN Stack Developer</H2>
+      </div>
+      <div className={classes.imageSideStyle}>
+        <div className={classes.logoRow}>
+            <ResponsiveImage src={iMongo} alt='mongo db logo' maxHeight={40} className={classes.img}/>
+            <ResponsiveImage src={iExpress} alt='express js logo' maxHeight={40} className={classes.img}/>
+
+          </div>
+          <div className={classes.logoRow}>
+            <ResponsiveImage src={iReact} alt='react js logo' maxHeight={32} className={classes.img}/>
+            <ResponsiveImage src={iNode} alt='node js logo' maxHeight={32} className={classes.img}/>
+          </div>
+      </div>
     </Paper>
   )
 }
@@ -51,8 +78,26 @@ const Skills = (props) => {
 const styles = theme => {
   const space = theme.spacing.unit
   return({
-    img: {
-      margin: '20px 0',
+    imageSideStyle: {
+      // flexBasis: '33.333333%',
+      width: '45%',
+      // backgroundColor: 'orange',
+      // paddingTop: 8,
+      // paddingBottom: 8,
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'space-between',
+      justifyContent: 'space-evenly',
+    },
+    textSideStyle: {
+      // backgroundColor: 'purple',
+      width: '55%',
+      padding: '4rem 4rem 2rem 4rem',
+      margin: '0 auto',
+      flexShrink: 1,
+      alignSelf: 'center',
+      maxWidth: '64rem',
+      textAlign: 'left',
     },
     logoRow: {
       display: 'flex',
@@ -64,53 +109,24 @@ const styles = theme => {
         justifyContent: 'space-between',
       },
       [theme.breakpoints.up(400)]: {
-        paddingLeft: '10%',
-        paddingRight: '10%',
+        // paddingLeft: '10%',
+        // paddingRight: '10%',
 
       },
       [theme.breakpoints.up(690)]: {
-        paddingLeft: '15%',
-        paddingRight: '15%',
+        // paddingLeft: '15%',
+        // paddingRight: '15%',
       },
       [theme.breakpoints.up(800)]: {
-        paddingLeft: '20%',
-        paddingRight: '20%',
+        // paddingLeft: '20%',
+        // paddingRight: '20%',
       },
-
-
-
-
-      // [theme.breakpoints.up(700)]: {
-        // paddingLeft: '10%',
-        // paddingRight: '10%',
-      // },
-
-      // [theme.breakpoints.up(520)]: {
-      //   paddingLeft: '15%',
-      //   paddingRight: '15%',
-      // },
-      // [theme.breakpoints.up(590)]: {
-      //   paddingLeft: '20%',
-      //   paddingRight: '20%',
-      // },
-      // [theme.breakpoints.up(682)]: {
-      //   paddingLeft: '25%',
-      //   paddingRight: '25%',
-      // },
-      // [theme.breakpoints.up(814)]: {
-      //   paddingLeft: '30%',
-      //   paddingRight: '30%',
-      // },
-      // justifyContent: 'center',
-      // paddingTop: space * 2,
-      // paddingBottom: space * 2,
     },
     wrapper: {
       display: 'flex',
-      flexDirection: 'column',
       margin: 8,
       minHeight: 100,
-      // backgroundColor: 'transparent',
+      backgroundColor: 'transparent',
       // backgroundColor: 'lightblue',
     },
   })

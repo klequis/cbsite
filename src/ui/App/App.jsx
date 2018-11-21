@@ -31,15 +31,15 @@ const App = (props) => {
 
   return (
     <div id='App-wrapper' className={classes.wrapper}>
-      <Breakpoints />
+      {/* <Breakpoints /> */}
       <div id='App-appbar' className={classes.appbar}>
-        <AppBar />
+        {/* <AppBar /> */}
 
       </div>
       <div>
         {/* <Hero /> */}
       </div>
-      <AppDrawer />
+      {/* <AppDrawer /> */}
       <div id='App-contentWraper' className={classes.contentWrapper}>
         <div id='App-content' className={classes.content}>
           <Switch>
@@ -60,16 +60,13 @@ const App = (props) => {
 }
 
 const styles = theme => ({
-  fakeContent: {
-    height: 400,
-  },
   wrapper: {
-    backgroundColor: 'red',
+    // backgroundColor: 'red',
     display: 'flex',
     flexDirection: 'column',
   },
   contentWrapper: {
-    backgroundColor: 'green',
+    // backgroundColor: 'green',
     flex: '1 0 auto',
     margin: 0,
     [theme.breakpoints.only('sm')]: {
@@ -92,13 +89,6 @@ const styles = theme => ({
     backgroundColor: '#2b3137',
     flexShrink: 0,
     flexGrow: 0,
-  },
-  appbar: {
-    paddingTop: 56,
-    [theme.breakpoints.up('sm')]: {
-      paddingTop: 64,
-    },
-
   },
 })
 
