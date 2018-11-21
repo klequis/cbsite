@@ -64,24 +64,25 @@ const styles = theme => ({
     height: 400,
   },
   wrapper: {
-    // backgroundColor: 'white',
+    backgroundColor: 'red',
     display: 'flex',
     flexDirection: 'column',
   },
   contentWrapper: {
+    backgroundColor: 'green',
     flex: '1 0 auto',
     margin: 0,
     [theme.breakpoints.only('sm')]: {
-      // margin: '0 5%',
+
     },
     [theme.breakpoints.only('md')]: {
-      margin: '0 10%',
+      // margin: '0 10%',
     },
     [theme.breakpoints.only('lg')]: {
-      margin: '0 15%',
+      // margin: '0 15%',
     },
     [theme.breakpoints.only('xl')]: {
-      margin: '0 15%',
+      // margin: '0 15%',
     },
   },
   content: {
