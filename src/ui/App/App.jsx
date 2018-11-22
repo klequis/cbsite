@@ -43,9 +43,9 @@ const App = (props) => {
       <div id='App-contentWraper' className={classes.contentWrapper}>
         <div id='App-content' className={classes.content}>
           <Switch>
-            <Route path='/home' component={Home} />
             <Route path='/typography' component={TypographyDemo} />
             <PrivateRoute exact path='/settings' component={SettingsForm} />
+            <Route path='/' component={Home} />
             <Route path='/too-much-info' component={TooMuchInfo} />
             <Route exact path='/login' component={LoginForm} />
             <Route exact path='/register' component={RegisterForm} />

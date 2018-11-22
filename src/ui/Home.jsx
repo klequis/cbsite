@@ -12,6 +12,8 @@ import iRiding from 'ui/media/riding.jpg'
 import Skills from 'ui/Skills'
 import H2 from 'ui/H2'
 import St2 from 'ui/St2'
+import ResponsiveImage from 'ui/elements/ResponsiveImage'
+import iReactRouter from 'ui/media/new/react-router.path.svg'
 
 // eslint-disable-next-line
 import { green, yellow, orange, red, purple } from 'logger'
@@ -53,10 +55,20 @@ const Home = (props) => {
         <H2>Dressage Trainer & Instructor</H2>
         <Body1>I fell in love with horses when I was 10 years old.</Body1>
       </LeftRightSection>
+      <div className={classes.theRest}>
+        <ResponsiveImage src={iReactRouter} alt='react router logo' />
+      </div>
     </div>
   )
 }
 
-const styles = {}
+const styles = {
+  theRest: {
+    minHeight: 300,
+    display: 'flex',
+    flexFlow: 'row wrap',
+    alignItems: 'center',
+  }
+}
 
 export default withStyles(styles)(Home)

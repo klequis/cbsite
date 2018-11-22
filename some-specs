@@ -1,0 +1,30 @@
+- hm: event details, things not sizing
+
+- cb: add logout, login to drawer
+- cb: install firefox on phone and che3ckout out
+
+login
+- button click not working on Carl's phone
+- put logout on drawer
+
+settings
+- hm: change logout to cancel
+- hm: space between buttons and password input
+
+hm: remove .env from repo
+
+
+                font            line height     weight
+body1           18.6667.px      1.65            300
+body1 bold      same            same            400
+h1              3.5rem          1.2             300
+h2              2.25rem         1.375           300
+h3              1.5rem          1.375           300
+h4              1.1rem          1.375           300
+h5              0.9rem          1.375           300
+h6              0.7rem          1.375           300
+
+
+
+
+
