@@ -4,7 +4,7 @@ import { Typography } from '@material-ui/core'
 import LeftRightSection from 'ui/LeftRightSection'
 import iTeaching from 'ui/media/teaching.jpg'
 import iMS from 'ui/media/ms01.png'
-import iMSNarrow from 'ui/media/ms01-narrow.png'
+// import iMSNarrow from 'ui/media/ms01-narrow.png'
 import iMeetup01 from 'ui/media/meetup01.jpg'
 import iTR from 'ui/media/tr.jpg'
 import iResponsive from 'ui/media/new/responsive.svg'
@@ -13,7 +13,20 @@ import Skills from 'ui/Skills'
 import H2 from 'ui/H2'
 import St2 from 'ui/St2'
 import ResponsiveImage from 'ui/elements/ResponsiveImage'
-import iReactRouter from 'ui/media/new/react-router.path.svg'
+import iReactRouter from 'ui/media/new/react-router.svg'
+import iRedux from 'ui/media/new/redux.svg'
+import iMUI from 'ui/media/new/material-ui.svg'
+import iMySql from 'ui/media/new/mysql.svg'
+import iRest from 'ui/media/new/rest-api.svg'
+import iWebpack from 'ui/media/new/webpack.svg'
+import iUbuntu from 'ui/media/new/ubuntu.svg'
+import iPassport from 'ui/media/new/passport.svg'
+import iMocha from 'ui/media/new/mocha.svg'
+import iTravis from 'ui/media/new/travis-ci.svg'
+import iYarn from 'ui/media/new/yarn.svg'
+import iRamda from 'ui/media/new/ramda.svg'
+import iWordpress from 'ui/media/new/wordpress.svg'
+import iMarkdown from 'ui/media/new/markdown.svg'
 
 // eslint-disable-next-line
 import { green, yellow, orange, red, purple } from 'logger'
@@ -56,18 +69,42 @@ const Home = (props) => {
         <Body1>I fell in love with horses when I was 10 years old.</Body1>
       </LeftRightSection>
       <div className={classes.theRest}>
-        <ResponsiveImage src={iReactRouter} alt='react router logo' />
+        <ResponsiveImage src={iMySql} className={classes.restLogo} alt='material ui logo' />
+        <ResponsiveImage src={iReactRouter} className={classes.restLogo} alt='react router logo' />
+        <ResponsiveImage src={iRedux} className={classes.restLogo} alt='redux logo' />
+        <ResponsiveImage src={iMarkdown} className={classes.restLogo} alt='markdown logo' />
+        <ResponsiveImage src={iWordpress} className={classes.restLogo} alt='wordpress logo' />
+        <ResponsiveImage src={iRamda} className={classes.restLogo} alt='ramda logo' />
+
+
+        <ResponsiveImage src={iYarn} className={classes.restLogo} alt='yarn logo' />
+        <ResponsiveImage src={iPassport} className={classes.restLogo} alt='passport logo' />
+        <ResponsiveImage src={iMocha} className={classes.restLogo} alt='mocha logo' />
+        <ResponsiveImage src={iTravis} className={classes.restLogo} alt='travis ci logo' />
+        <ResponsiveImage src={iUbuntu} className={classes.restLogo} alt='ubuntu logo' />
+
+
+
+        <ResponsiveImage src={iMUI} className={classes.restLogo} alt='material ui logo' />
+        <ResponsiveImage src={iRest} className={classes.restLogo} alt='rest api logo' />
+        <ResponsiveImage src={iWebpack} className={classes.restLogo} alt='webpack logo' />
+
       </div>
     </div>
   )
 }
 
 const styles = {
+  restLogo: {
+    marginRight: 5,
+    marginLeft: 5,
+  },
   theRest: {
     minHeight: 300,
     display: 'flex',
     flexFlow: 'row wrap',
-    alignItems: 'center',
+    justifyContent: 'flex-start',
+    // alignItems: 'center',
   }
 }
 

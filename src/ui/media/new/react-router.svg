@@ -43,8 +43,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="5.6"
-     inkscape:cx="110.51305"
-     inkscape:cy="13.880411"
+     inkscape:cx="24.26305"
+     inkscape:cy="13.166125"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -93,7 +93,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -102,24 +102,33 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(-1.0718814,-1076.4512)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#d0021b;fill-opacity:1;stroke:none;"
+       x="54.82143"
+       y="1106.1982"
+       id="text2609"><tspan
+         sodipodi:role="line"
+         id="tspan2607"
+         x="54.82143"
+         y="1106.1982"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.33333397px;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#d0021b;fill-opacity:1;">React Router</tspan></text>
     <g
        id="g2605"
-       transform="matrix(0.49423344,0,0,0.49423344,3.5377881,566.06752)">
-      <circle
-         r="42.426498"
-         cy="1080.0931"
-         cx="42.426498"
-         id="path2358-7"
-         style="fill:#2a2a2a;fill-opacity:1;stroke:#000000;stroke-width:0.46092409;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter2596)" />
+       transform="matrix(0.47540309,0,0,0.47540309,4.8307654,586.26918)">
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:#2a2a2a;fill-opacity:1;stroke:#000000;stroke-width:0.46092409;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter2596)"
+         d="M 84.852997,1080.0931 A 42.426498,42.426498 0 0 1 42.426498,1122.5196 42.426498,42.426498 0 0 1 0,1080.0931 a 42.426498,42.426498 0 0 1 42.426498,-42.4265 42.426498,42.426498 0 0 1 42.426499,42.4265 z"
+         id="path2358-7" />
       <g
          transform="translate(1.4543114,-23.360427)"
          id="g2367">
-        <circle
+        <path
+           inkscape:connector-curvature="0"
            style="fill:#2a2a2a;fill-opacity:1;stroke:none;stroke-width:0.46092409;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.95286195"
-           id="path2358"
-           cx="40.972187"
-           cy="1103.4536"
-           r="42.426498" />
+           d="m 83.398685,1103.4536 a 42.426498,42.426498 0 0 1 -42.426498,42.4265 42.426498,42.426498 0 0 1 -42.4264984,-42.4265 42.426498,42.426498 0 0 1 42.4264984,-42.4265 42.426498,42.426498 0 0 1 42.426498,42.4265 z"
+           id="path2358" />
         <path
            style="fill:#ffffff;fill-opacity:1;stroke-width:0.26199183"
            inkscape:connector-curvature="0"
@@ -132,16 +141,5 @@
            id="path2399" />
       </g>
     </g>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-       x="54.82143"
-       y="1106.1982"
-       id="text2609"><tspan
-         sodipodi:role="line"
-         id="tspan2607"
-         x="54.82143"
-         y="1106.1982"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.33333397px;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start">React Router</tspan></text>
   </g>
 </svg>
