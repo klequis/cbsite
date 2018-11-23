@@ -9,13 +9,13 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="43.238838mm"
-   height="12.129215mm"
-   viewBox="0 0 43.238838 12.129215"
+   width="37.570835mm"
+   height="12.132mm"
+   viewBox="0 0 37.570835 12.132"
    version="1.1"
    id="svg1671"
    inkscape:version="0.92.3 (unknown)"
-   sodipodi:docname="logo-template.1.svg">
+   sodipodi:docname="zenfolio.svg">
   <defs
      id="defs1665" />
   <sodipodi:namedview
@@ -26,8 +26,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.8"
-     inkscape:cx="-36.304837"
-     inkscape:cy="40.149931"
+     inkscape:cx="-16.423642"
+     inkscape:cy="43.012355"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -44,7 +44,7 @@
      inkscape:guide-bbox="true"
      showborder="false">
     <sodipodi:guide
-       position="19.04918,28.063338"
+       position="-17.008929,30.427084"
        orientation="1,0"
        id="guide828"
        inkscape:locked="false" />
@@ -65,10 +65,10 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-86.759217,-137.47705)">
+     transform="translate(-87.136376,-137.47566)">
     <g
        id="g1648"
-       transform="matrix(0.20755057,0,0,0.26452286,67.829363,87.948326)"
+       transform="matrix(0.11101393,0,0,0.26491214,77.004144,87.866514)"
        style="stroke:#000000;stroke-opacity:1">
       <rect
          y="187.23798"
@@ -80,38 +80,14 @@
     </g>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0081cb;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="102.46922"
-       y="144.92632"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#f58546;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="87.690331"
+       y="145.20981"
        id="text2609"><tspan
          sodipodi:role="line"
          id="tspan2607"
-         x="102.46922"
-         y="144.92632"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#0081cb;fill-opacity:1;stroke-width:0.26458332">Material UI</tspan></text>
-    <g
-       id="g2976"
-       transform="matrix(0.02114549,0,0,0.02114549,87.539604,138.71323)">
-      <path
-         id="path2956"
-         d="M 0,259.8 V 0 l 225,129.9 v 86.6 L 75,129.9 v 173.2 z"
-         inkscape:connector-curvature="0"
-         style="fill:#00b0ff" />
-      <path
-         id="path2958"
-         d="M 225,129.9 450,0 v 259.8 l -150,86.6 -75,-43.3 150,-86.6 v -86.6 l -150,86.6 z"
-         inkscape:connector-curvature="0"
-         style="fill:#0081cb" />
-      <path
-         id="path2960"
-         d="m 225,303.1 v 86.6 l 150,86.6 v -86.6 z"
-         inkscape:connector-curvature="0"
-         style="fill:#00b0ff" />
-      <path
-         id="path2962"
-         d="M 375,476.3 600,346.4 V 173.2 l -75,43.3 v 86.6 L 375,389.7 Z M 525,129.9 V 43.3 L 600,0 v 86.6 z"
-         inkscape:connector-curvature="0"
-         style="fill:#0081cb" />
-    </g>
+         x="87.690331"
+         y="145.20981"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#f58546;fill-opacity:1;stroke-width:0.26458332">zenfolio</tspan></text>
   </g>
 </svg>
